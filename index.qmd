@@ -22,7 +22,7 @@ theme: custom.scss
 /* Contenedor principal con scroll - tres COLUMNAS */
 .responsive-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;  /* Tres COLUMNAS iguales */
+  grid-template-columns: 1fr 1fr;  /* dos COLUMNAS iguales */
   gap: 25px;
   margin: 20px 0;
   max-height: 85vh;          /* Altura máxima para scroll */
@@ -102,7 +102,7 @@ theme: custom.scss
 ::: grid-card
 2023-2025
 
-```{r casos_2023_2025,echo=FALSE}
+```{r casos_2023_2025b,echo=FALSE}
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 source("~/Library/CloudStorage/Dropbox/r_developments/r_dashboards/netlify/1.2.persisten_dengue_transmission_2026/persistent_dengue_transmission_08_chihuahua/mp_transmission_chains.R")
 source("~/Library/CloudStorage/Dropbox/r_developments/r_dashboards/netlify/1.2.persisten_dengue_transmission_2026/persistent_dengue_transmission_08_chihuahua/mp_dengue_cases.R")
@@ -120,7 +120,7 @@ mp_dengue_cases(data = xy,
 <!-- MAPA 4 (Fila 2, col = 2 - Casos) -->
 ::: grid-card
 2025
-```{r casos_2025,echo=FALSE}
+```{r casos_2025b,echo=FALSE}
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 source("~/Library/CloudStorage/Dropbox/r_developments/r_dashboards/netlify/1.2.persisten_dengue_transmission_2026/persistent_dengue_transmission_08_chihuahua/mp_transmission_chains.R")
 source("~/Library/CloudStorage/Dropbox/r_developments/r_dashboards/netlify/1.2.persisten_dengue_transmission_2026/persistent_dengue_transmission_08_chihuahua/mp_dengue_cases.R")
@@ -138,7 +138,7 @@ mp_dengue_cases(data = xy,
 <!-- MAPA 4 (Fila 2, col = 2 - Casos) -->
 ::: grid-card
 2024
-```{r casos_2024,echo=FALSE}
+```{r casos_2024b,echo=FALSE}
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 source("~/Library/CloudStorage/Dropbox/r_developments/r_dashboards/netlify/1.2.persisten_dengue_transmission_2026/persistent_dengue_transmission_08_chihuahua/mp_transmission_chains.R")
 source("~/Library/CloudStorage/Dropbox/r_developments/r_dashboards/netlify/1.2.persisten_dengue_transmission_2026/persistent_dengue_transmission_08_chihuahua/mp_dengue_cases.R")
@@ -196,7 +196,7 @@ mp_dengue_cases(data = xy,
 <!-- MAPA 3 (Fila 1, columna 1 - Casos) -->
 ::: grid-card
 2023-2025
-```{r heatmap_2023_2025,echo=FALSE}
+```{r heatmap_2023_2025b,echo=FALSE}
 # Step 1. load the dataset ####
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 
@@ -215,7 +215,7 @@ mp_heatmap(geocoded_dataset = xy,
 <!-- MAPA 4 (Fila 2, col = 2 - Casos) -->
 ::: grid-card
 2025
-```{r heatmap_2025,echo=FALSE}
+```{r heatmap_2025b,echo=FALSE}
 # Step 1. load the dataset ####
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 
@@ -234,7 +234,7 @@ mp_heatmap(geocoded_dataset = xy,
 <!-- MAPA 4 (Fila 2, col = 2 - Casos) -->
 ::: grid-card
 2024
-```{r heatmap_2024,echo=FALSE}
+```{r heatmap_2024b,echo=FALSE}
 # Step 1. load the dataset ####
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 
@@ -254,7 +254,7 @@ mp_heatmap(geocoded_dataset = xy,
 <!-- MAPA 4 (Fila 2, col = 2 - Casos) -->
 ::: grid-card
 2023
-```{r heatmap_2023,echo=FALSE}
+```{r heatmap_2023b,echo=FALSE}
 # Step 1. load the dataset ####
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 
@@ -273,7 +273,7 @@ mp_heatmap(geocoded_dataset = xy,
 <!-- MAPA 4 (Fila 2, col = 2 - Casos) -->
 ::: grid-card
 2016-2022
-```{r heatmap_2016_2022, echo=FALSE}
+```{r heatmap_2016_2022b, echo=FALSE}
 # Step 1. load the dataset ####
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 
@@ -385,7 +385,7 @@ mp_heatmap(geocoded_dataset = xy,
 ::: grid-card
 2023-2025
 
-```{r casos_2023_2025,echo=FALSE}
+```{r casos_2023_2025a,echo=FALSE}
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 source("~/Library/CloudStorage/Dropbox/r_developments/r_dashboards/netlify/1.2.persisten_dengue_transmission_2026/persistent_dengue_transmission_08_chihuahua/mp_transmission_chains.R")
 source("~/Library/CloudStorage/Dropbox/r_developments/r_dashboards/netlify/1.2.persisten_dengue_transmission_2026/persistent_dengue_transmission_08_chihuahua/mp_dengue_cases.R")
@@ -403,7 +403,7 @@ mp_dengue_cases(data = xy,
 <!-- MAPA 4 (Fila 2, col = 2 - Casos) -->
 ::: grid-card
 2025
-```{r casos_2025,echo=FALSE}
+```{r casos_2025a,echo=FALSE}
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 source("~/Library/CloudStorage/Dropbox/r_developments/r_dashboards/netlify/1.2.persisten_dengue_transmission_2026/persistent_dengue_transmission_08_chihuahua/mp_transmission_chains.R")
 source("~/Library/CloudStorage/Dropbox/r_developments/r_dashboards/netlify/1.2.persisten_dengue_transmission_2026/persistent_dengue_transmission_08_chihuahua/mp_dengue_cases.R")
@@ -421,7 +421,7 @@ mp_dengue_cases(data = xy,
 <!-- MAPA 4 (Fila 2, col = 2 - Casos) -->
 ::: grid-card
 2024
-```{r casos_2024,echo=FALSE}
+```{r casos_2024a,echo=FALSE}
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 source("~/Library/CloudStorage/Dropbox/r_developments/r_dashboards/netlify/1.2.persisten_dengue_transmission_2026/persistent_dengue_transmission_08_chihuahua/mp_transmission_chains.R")
 source("~/Library/CloudStorage/Dropbox/r_developments/r_dashboards/netlify/1.2.persisten_dengue_transmission_2026/persistent_dengue_transmission_08_chihuahua/mp_dengue_cases.R")
@@ -479,7 +479,7 @@ mp_dengue_cases(data = xy,
 <!-- MAPA 3 (Fila 1, columna 1 - Casos) -->
 ::: grid-card
 2023-2025
-```{r heatmap_2023_2025,echo=FALSE}
+```{r heatmap_2023_2025a,echo=FALSE}
 # Step 1. load the dataset ####
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 
@@ -498,7 +498,7 @@ mp_heatmap(geocoded_dataset = xy,
 <!-- MAPA 4 (Fila 2, col = 2 - Casos) -->
 ::: grid-card
 2025
-```{r heatmap_2025,echo=FALSE}
+```{r heatmap_2025a,echo=FALSE}
 # Step 1. load the dataset ####
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 
@@ -517,7 +517,7 @@ mp_heatmap(geocoded_dataset = xy,
 <!-- MAPA 4 (Fila 2, col = 2 - Casos) -->
 ::: grid-card
 2024
-```{r heatmap_2024,echo=FALSE}
+```{r heatmap_2024a,echo=FALSE}
 # Step 1. load the dataset ####
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 
@@ -537,7 +537,7 @@ mp_heatmap(geocoded_dataset = xy,
 <!-- MAPA 4 (Fila 2, col = 2 - Casos) -->
 ::: grid-card
 2023
-```{r heatmap_2023,echo=FALSE}
+```{r heatmap_2023a,echo=FALSE}
 # Step 1. load the dataset ####
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 
@@ -556,7 +556,7 @@ mp_heatmap(geocoded_dataset = xy,
 <!-- MAPA 4 (Fila 2, col = 2 - Casos) -->
 ::: grid-card
 2016-2022
-```{r heatmap_2016_2022, echo=FALSE}
+```{r heatmap_2016_2022a, echo=FALSE}
 # Step 1. load the dataset ####
 load("~/Library/CloudStorage/Dropbox/hotspots_2025/8.RData/denmex_chains.RData")
 

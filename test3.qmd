@@ -1,5 +1,5 @@
 ---
-title: "Programa de Prevención y Control de Arbovirosis | 2056 | Ciudad Juárez"
+title: "Programa de Prevención y Control de Arbovirosis | 2056 | Ciudad Juarez"
 format: 
   dashboard:
     nav-buttons: [twitter, github, facebook]
@@ -129,7 +129,7 @@ library(fishualize)
 library(sf)
 mp_dengue_cases(data = xy,
                 yrs = c(2025),
-                locality = "Ciudad Juárez",
+                locality = "Juárez",
                 cve_edo = "08")
 ```
 
@@ -147,7 +147,7 @@ library(fishualize)
 library(sf)
 mp_dengue_cases(data = xy,
                 yrs = 2024,
-                locality = "Ciudad Juárez",
+                locality = "Ciudad Juarez",
                 cve_edo = "08")
 ```
 
@@ -166,7 +166,7 @@ library(fishualize)
 library(sf)
 mp_dengue_cases(data = xy,
                 yrs = 2023,
-                locality = "Ciudad Juárez",
+                locality = "Ciudad Juarez",
                 cve_edo = "08")
 ```
 
@@ -184,7 +184,7 @@ library(fishualize)
 library(sf)
 mp_dengue_cases(data = xy,
                 yrs = c(2016:2022),
-                locality = "Ciudad Juárez",
+                locality = "Ciudad Juarez",
                 cve_edo = "08")
 ```
 
@@ -207,7 +207,7 @@ library(mapgl)
 mp_heatmap(geocoded_dataset = xy,
            yrs = c(2023:2025),
            cve_edo = "08",
-           locality = "Ciudad Juárez")
+           locality = "Ciudad Juarez")
 ```
 :::
 
@@ -226,7 +226,7 @@ library(mapgl)
 mp_heatmap(geocoded_dataset = xy,
            yrs = 2025,
            cve_edo = "08",
-           locality = "Ciudad Juárez")
+           locality = "Ciudad Juarez")
 ```
 
 :::
@@ -245,7 +245,7 @@ library(mapgl)
 mp_heatmap(geocoded_dataset = xy,
            yrs = 2024,
            cve_edo = "08",
-           locality = "Ciudad Juárez")
+           locality = "Ciudad Juarez")
 ```
 
 :::
@@ -265,7 +265,7 @@ library(mapgl)
 mp_heatmap(geocoded_dataset = xy,
            yrs = 2023,
            cve_edo = "08",
-           locality = "Ciudad Juárez")
+           locality = "Ciudad Juarez")
 ```
 
 :::
@@ -284,7 +284,7 @@ library(mapgl)
 mp_heatmap(geocoded_dataset = xy,
            yrs = c(2016:2022),
            cve_edo = "08",
-           locality = "Ciudad Juárez")
+           locality = "Ciudad Juarez")
 ```
 :::
 
